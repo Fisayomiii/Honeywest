@@ -249,8 +249,8 @@ body {
   position: fixed;
   right: 20px;
   bottom: 15px;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   color: #ffffff;
   overflow: hidden;
   background: #7FBC4E;
@@ -263,8 +263,8 @@ body {
 .ui-to-top::before {
   content: '';
   position: absolute;
-  left: 1.4em;
-  top: 1.6em;
+  left: 1em;
+  top: 1.2em;
   height: 1em;
   width: 1em;
   border-top: 3px solid #fff;
@@ -429,7 +429,7 @@ body {
 
 .par-h1 {
   color: #333;
-  font-size: 2em;
+  font-size: 1.6em;
   text-transform: uppercase;
 }
 
@@ -458,6 +458,7 @@ body {
   margin-bottom: -21px;
   padding-left: 0px;
 }
+
 .slider {
   display: block;
   width: 400px;
@@ -472,7 +473,8 @@ body {
   background-position: 90%;
   background-image: url(/Images/cashew-harvesting-is-a-hazardous-occupation-1594308915.jpg);
 }
-.slider2{
+
+.slider2 {
   display: block;
   width: 370px;
   height: 300px;
@@ -484,7 +486,8 @@ body {
   background-repeat: no-repeat;
   background-image: url(/Images/raw-cashew-nuts-500x500.jpg);
 }
-.slide-wrap2{
+
+.slide-wrap2 {
   display: inline-block;
   width: -50%;
   -webkit-box-pack: center;
@@ -496,7 +499,8 @@ body {
   flex-wrap: nowrap;
   padding-bottom: 7em;
 }
-.slide-wrap{
+
+.slide-wrap {
   display: inline-block;
   width: 60%;
   -webkit-box-orient: horizontal;
@@ -575,11 +579,12 @@ body {
 }
 
 .products {
-  padding-top: 3em;
+  padding-top: 6em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   width: 100%;
   background-color: #F4DDBB;
   background-image: url('/Images/nut_cream_02.png'), url('/Images/nut_cream_02.png'), url('/Images/nut_cream_02.png'), ;
@@ -597,8 +602,8 @@ body {
   cursor: pointer;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 100px;
-  transition: .6s;
+  gap: 90px;
+  transition: 0.6s;
 }
 
 #third-slide li {
@@ -633,16 +638,17 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   display: block;
-  transition: 1s;
+  transition: 0.5s all;
 }
-#third-slide li:hover span{
+
+#third-slide li:hover span {
   opacity: 1;
   transform: translateY(-60px);
 }
 
 #third-slide li:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, .2);
-  transform: translate(0px, -8px);
+  /* box-shadow: 0 0 11px rgba(33, 33, 33, .2); */
+  /* transform: translate(0px, -8px); */
 }
 
 #third-slide span {
